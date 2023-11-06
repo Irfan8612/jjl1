@@ -19,3 +19,4 @@ try {
     // log telegram errors
     // echo $e->getMessage();
 }
+$result = $telegram->setWebhook($hook_url, ['certificate' => '/path/to/certificate']);
